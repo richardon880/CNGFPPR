@@ -1,0 +1,63 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2023-06-23T11:06:21 [V7.32]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	protocol=ASU	
+#INFO	request_date=2023-06-23T11:06:21	
+#INFO	request_post=https://vizier.cds.unistra.fr//viz-bin/asu-tsv	
+#-out=_DE.icrs
+#
+#INFO	contact=cds-question@unistra.fr	
+#INFO	version=7.32	
+#INFO	-out.max=10	
+#INFO	-c=051.245833+60.000000,rd=2000.	
+#Constraint -bmark=POST
+
+#RESOURCE=yCat_1239
+#Name: I/239
+#Title: The Hipparcos and Tycho Catalogues (ESA 1997)
+#INFO	ivoid=ivo://cds.vizier/i/239	
+#INFO	publisher=CDS	
+#INFO	creator=ESA 1997	
+#INFO	related_resource=bibcode:1997HIP...C......0E	
+#INFO	landing_page=https://cdsarc.cds.unistra.fr/viz-bin/cat/I/239	
+#INFO	publication_date=2021-11-18	
+#INFO	curation_level=RESEARCH	
+#INFO	rights=https://cds.unistra.fr/vizier-org/licences_vizier.html	
+#Coosys	H_1991.250:	ICRS
+#Table	I_239_hip_main:
+#Name: I/239/hip_main
+#Title: The Hipparcos Main Catalogue
+#Column	HIP	(I6)	Identifier (HIP number) (H1)	[ucd=meta.id;meta.main]
+#Column	RAhms	(A11)	Right ascension in h m s, ICRS (J1991.25) (H3)	[ucd=pos.eq.ra]
+#Column	DEdms	(A11)	Declination in deg ' ", ICRS (J1991.25) (H4)	[ucd=pos.eq.dec]
+#Column	Vmag	(F5.2)	? Magnitude in Johnson V (H5)	[ucd=phot.mag;em.opt.V]
+#Column	RAICRS	(F12.8)	? alpha, degrees (ICRS, Epoch=J1991.25) (H8)	[ucd=pos.eq.ra;meta.main]
+#Column	DEICRS	(F12.8)	? delta, degrees (ICRS, Epoch=J1991.25) (H9)	[ucd=pos.eq.dec;meta.main]
+#Column	Plx	(F7.2)	? Trigonometric parallax (H11)	[ucd=pos.parallax.trig]
+#Column	pmRA	(F8.2)	*? Proper motion mu_alpha.cos(delta), ICRS(H12)	[ucd=pos.pm;pos.eq.ra]
+#Column	pmDE	(F8.2)	*? Proper motion mu_delta, ICRS (H13)	[ucd=pos.pm;pos.eq.dec]
+#Column	e_Plx	(F6.2)	? Standard error in Plx (H16)	[ucd=stat.error;pos.parallax]
+#Column	BTmag	(F6.3)	? Mean BT magnitude (H32)	[ucd=phot.mag;em.opt.B]
+#Column	VTmag	(F6.3)	? Mean VT magnitude (H34)	[ucd=phot.mag;em.opt.V]
+#Column	B-V	(F6.3)	? Johnson B-V colour (H37)	[ucd=phot.color;em.opt.B;em.opt.V]
+#Column	Notes	(A1)	[DGPWXYZ] Existence of notes (H70)	[ucd=meta.note]
+#Column	_RA.icrs	(F12.8)	Right ascension (ICRS) at Epoch=J2000, proper motions taken into account	[ucd=pos.eq.ra]
+#Column	_DE.icrs	(F12.8)	Declination (ICRS) at Epoch=J2000, proper motions taken into account	[ucd=pos.eq.dec]
+HIP	RAhms	DEdms	Vmag	RAICRS	DEICRS	Plx	pmRA	pmDE	e_Plx	BTmag	VTmag	B-V	Notes	_RA.icrs	_DE.icrs
+ 	 	 	mag	deg	deg	mas	mas/yr	mas/yr	mas	mag	mag	mag	 	deg	deg
+------	-----------	-----------	-----	------------	------------	-------	--------	--------	------	------	------	------	-	------------	------------
+  5834	01 14 49.79	+43 09 08.1	 9.98	018.70747749	+43.15225084	  11.89	  211.60	 -191.31	  1.48	10.806	10.012	 0.623	 	018.70818246	+43.15178585
+  5835	01 14 49.84	-13 44 52.1	 9.65	018.70766885	-13.74779379	   2.52	    0.03	    8.23	  1.55	10.145	 9.664	 0.465	 	018.70766893	-13.74777379
+  5836	01 14 51.10	+14 38 31.1	 9.28	018.71291520	+14.64197027	   3.03	   -1.75	  -24.74	  1.25	 9.740	 9.367	 0.353	 	018.71291080	+14.64191014
+  5837	01 14 51.19	+09 44 28.1	 8.00	018.71327632	+09.74112841	  11.79	  -11.97	  -20.93	  1.04	 8.521	 8.064	 0.493	 	018.71324680	+09.74107754
+  5838	01 14 51.52	-38 50 30.2	 9.27	018.71468691	-38.84172957	   2.77	  -16.83	   -0.30	  1.26	10.537	 9.363	 1.007	 	018.71463439	-38.84173030
+  5839	01 14 52.85	+62 40 50.4	 8.49	018.72020284	+62.68065995	   2.51	    7.84	   -5.17	  0.97	 8.590	 8.505	 0.075	 	018.72024436	+62.68064738
+  5844	01 15 00.56	-60 06 55.1	 8.57	018.75234809	-60.11529279	   5.54	  -12.55	   10.80	  1.17	 8.932	 8.634	 0.300	 	018.75228687	-60.11526654
+  5845	01 15 00.59	-03 46 51.4	 9.12	018.75246749	-03.78093737	  15.12	  -26.44	  -18.26	  1.05	 9.835	 9.155	 0.629	 	018.75240309	-03.78098175
+  5847	01 15 01.20	-18 10 44.1	 8.13	018.75500980	-18.17892199	   3.23	   22.21	   14.02	  1.26	 9.401	 8.234	 1.001	 	018.75506662	-18.17888791
+  5849	01 15 01.60	+34 53 05.1	 8.18	018.75664898	+34.88474998	   2.77	   19.38	   11.22	  1.20	 9.503	 8.281	 1.044	 	018.75670640	+34.88477725
+
